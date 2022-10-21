@@ -93,7 +93,7 @@ html {
   &_blue {
     background-color: $color-blue;
     color: $text-color-white;
-    margin: 30px auto 10px auto;
+    margin: 0 auto 10px auto;
     @include for-large-up {
       width: 160px;
       margin: 34px 10px 111px auto;

@@ -152,9 +152,6 @@ html {
   max-width: 100%;
   margin: 22px auto;
 }
-.cards__image-container {
-  margin: 22px auto;
-}
 .cards__capture {
   display: block;
   height: 28px;

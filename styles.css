@@ -8,7 +8,6 @@ html {
 }
 
 .page {
-  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,9 +16,11 @@ html {
 .audience {
   max-width: 320px;
   background-color: rgba(0, 161, 198, 0.07);
+  padding-bottom: 35px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .audience {
+    width: 1400px;
     max-width: 1400px;
   }
 }
@@ -38,7 +39,7 @@ html {
   text-align: center;
   color: #2b292d;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .audience__about {
     margin-top: 108px;
     margin-bottom: 24px;
@@ -52,17 +53,11 @@ html {
   font-weight: 700;
   color: #2b292d;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .audience__title {
     width: 555px;
     height: 112px;
     margin: auto;
-    font-size: 56px;
-    line-height: 56px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .audience__title {
     font-size: 56px;
     line-height: 56px;
   }
@@ -76,7 +71,7 @@ html {
   color: #2b292d;
   text-align: center;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .audience__text {
     width: 555px;
     height: 72px;
@@ -89,11 +84,12 @@ html {
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .audience__buttons-wrapper {
     flex-direction: row;
   }
 }
+
 .button {
   text-align: center;
   width: 290px;
@@ -107,7 +103,7 @@ html {
   color: #fff;
   margin: 30px auto 10px auto;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .button_blue {
     width: 160px;
     margin: 34px 10px 111px auto;
@@ -116,9 +112,9 @@ html {
 .button_white {
   background-color: #fff;
   color: #000;
-  margin: auto;
+  margin: 10px auto 40px auto;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .button_white {
     width: 158px;
     margin: 34px auto 111px 10px;
@@ -127,6 +123,14 @@ html {
 
 .cards {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .cards {
+    flex-direction: row;
+  }
 }
 .cards__item {
   display: flex;
@@ -138,24 +142,38 @@ html {
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
+  margin: 0 15px 15px 15px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .cards__item {
     width: 262px;
   }
 }
 .cards__item:hover {
   background-color: #3141c5;
+  color: #fff;
+}
+.cards__item:hover > .cards__capture {
+  color: #fff;
+}
+.cards__image-container {
+  max-height: 195px;
+  margin: 22px auto;
 }
 .cards__image {
   display: block;
   max-width: 100%;
+  max-height: 195px;
   margin: 22px auto;
 }
 .cards__capture {
   display: block;
-  height: 28px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
   margin-bottom: 33px;
+  color: #2b292d;
 }
 
 /*# sourceMappingURL=styles.css.map */

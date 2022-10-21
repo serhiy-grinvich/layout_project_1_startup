@@ -89,8 +89,14 @@ html {
   border: none;
   border-radius: $button-radius;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 18px;
+  // font-size: 13px;
+  // line-height: 18px;
+  font-size: 18px;
+  line-height: 13px;
+  @include for-large-up {
+    font-size: 18px;
+    line-height: 13px;
+  }
 
   &_blue {
     background-color: $color-blue;

@@ -98,11 +98,13 @@ html {
   border: none;
   border-radius: 2px;
   font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
 }
 .button_blue {
   background-color: #3040c4;
   color: #fff;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 12px auto;
 }
 @media screen and (min-width: 1400px) {
   .button_blue {
@@ -113,7 +115,7 @@ html {
 .button_white {
   background-color: #fff;
   color: #000;
-  margin: 10px auto 40px auto;
+  margin: 0 auto 40px auto;
 }
 @media screen and (min-width: 1400px) {
   .button_white {

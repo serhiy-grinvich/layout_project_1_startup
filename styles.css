@@ -1,3 +1,53 @@
+.button {
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .button {
+    font-size: 18px;
+    line-height: 13px;
+  }
+}
+.button_blue {
+  background-color: #3040c4;
+  color: #fff;
+  margin: 0 auto 12px auto;
+}
+@media screen and (min-width: 1400px) {
+  .button_blue {
+    width: 160px;
+    margin: 14px 5px 111px auto;
+  }
+}
+.button_white {
+  background-color: #fff;
+  color: #000;
+  margin: 0 auto 40px auto;
+}
+@media screen and (min-width: 1400px) {
+  .button_white {
+    width: 158px;
+    margin: 14px auto 111px 5px;
+  }
+}
+.button_txt-blue {
+  background-color: #fff;
+  color: #3040c4;
+  margin: 0 auto 40px auto;
+}
+@media screen and (min-width: 1400px) {
+  .button_txt-blue {
+    width: 158px;
+    margin: 14px auto 111px 5px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

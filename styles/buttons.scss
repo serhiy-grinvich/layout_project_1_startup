@@ -1,0 +1,96 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+
+.button {
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  border: none;
+  border-radius: $button-radius;
+  font-weight: 700;
+  // font-size: 13px;
+  // line-height: 18px;
+  font-size: 18px;
+  line-height: 13px;
+  @include for-large-up {
+    font-size: 18px;
+    line-height: 13px;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+    color: $text-color-white;
+    margin: 0 auto 12px auto;
+    @include for-large-up {
+      width: 160px;
+      margin: 14px 5px 111px auto;
+    }
+  }
+  &_white {
+    background-color: $color-white;
+    color: $text-color-black;
+    margin: 0 auto 40px auto;
+
+    @include for-large-up {
+      width: 158px;
+      margin: 14px auto 111px 5px;
+    }
+  }
+  &_txt-blue {
+    background-color: $color-white;
+    color: $color-blue;
+    margin: 0 auto 40px auto;
+
+    @include for-large-up {
+      width: 158px;
+      margin: 14px auto 111px 5px;
+    }
+  }
+}
+
+// .button {
+//   text-align: center;
+//   width: 290px;
+//   height: 48px;
+//   border: none;
+//   border-radius: $button-radius;
+//   font-weight: 700;
+//   // font-size: 13px;
+//   // line-height: 18px;
+//   font-size: 18px;
+//   line-height: 13px;
+//   @include for-large-up {
+//     font-size: 18px;
+//     line-height: 13px;
+//   }
+
+//   &_blue {
+//     background-color: $color-blue;
+//     color: $text-color-white;
+//     margin: 0 auto 12px auto;
+//     @include for-large-up {
+//       width: 160px;
+//       margin: 14px 5px 111px auto;
+//     }
+//   }
+//   &_white {
+//     background-color: $color-white;
+//     color: $text-color-black;
+//     margin: 0 auto 40px auto;
+
+//     @include for-large-up {
+//       width: 158px;
+//       margin: 14px auto 111px 5px;
+//     }
+//   }
+//   &_txt-blue {
+//     background-color: $color-white;
+//     color: $color-blue;
+//     margin: 0 auto 40px auto;
+
+//     @include for-large-up {
+//       width: 158px;
+//       margin: 14px auto 111px 5px;
+//     }
+//   }
+// }

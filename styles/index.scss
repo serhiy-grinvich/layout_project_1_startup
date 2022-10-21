@@ -36,8 +36,7 @@ html {
     text-align: center;
     color: $text-color-primary;
     @include for-large-up {
-      margin-top: 108px;
-      margin-bottom: 24px;
+      margin: 108px auto 24px auto;
     }
   }
   &__title {
@@ -51,9 +50,10 @@ html {
     @include for-large-up {
       width: 555px;
       height: 112px;
-      margin: auto;
+      margin: 0 auto 30px auto;
       font-size: 56px;
       line-height: 56px;
+      letter-spacing: -0.5px;
     }
   }
   &__text {
@@ -67,7 +67,7 @@ html {
     @include for-large-up {
       width: 555px;
       height: 72px;
-      margin: 30px auto 34px auto;
+      margin: 0 auto 34px auto;
     }
   }
   &__buttons-wrapper {
@@ -98,7 +98,7 @@ html {
     margin: 0 auto 12px auto;
     @include for-large-up {
       width: 160px;
-      margin: 34px 10px 111px auto;
+      margin: 0 5px 111px auto;
     }
   }
   &_white {
@@ -108,7 +108,7 @@ html {
 
     @include for-large-up {
       width: 158px;
-      margin: 34px auto 111px 10px;
+      margin: 0 auto 111px 5px;
     }
   }
 }
@@ -120,12 +120,14 @@ html {
 
   @include for-large-up {
     flex-direction: row;
+    margin: 0 131px 75px 130px;
   }
   &__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // align-content: space-around;
 
     width: 290px;
     height: 300px;
@@ -136,6 +138,7 @@ html {
 
     @include for-large-up {
       width: 262px;
+      margin: auto;
     }
     &:hover {
       background-color: $card-color-blue;

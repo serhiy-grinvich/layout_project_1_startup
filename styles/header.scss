@@ -6,6 +6,11 @@
   width: 320px;
   height: 64px;
   display: flex;
+  @include for-large-up {
+    width: 1140px;
+    height: 62px;
+    margin-top: 39px;
+  }
 }
 .header-logo {
   display: flex;
@@ -13,6 +18,9 @@
   align-items: center;
   width: 261;
   border-right: 1px solid rgba(0, 0, 0, 0.15);
+  @include for-large-up {
+    border: none;
+  }
   &__img {
     display: block;
     width: 48px;
@@ -21,29 +29,87 @@
     margin-bottom: 8px;
     margin-left: 15px;
     margin: 8px 13px 8px 15px;
+    @include for-large-up {
+      width: 60px;
+      height: 60px;
+      margin: 0;
+      margin-right: 15px;
+    }
   }
   &__text {
+    @include for-large-up {
+      width: 222px;
+      height: 51px;
+    }
   }
   &__name {
-    text-align: center;
+    // text-align: center;
     font-weight: 700;
     font-size: 20px;
+    color: $text-color-primary;
     line-height: 25px;
     margin-right: 73px;
+    @include for-large-up {
+    }
   }
   &__descr {
     display: none;
+    @include for-large-up {
+      display: block;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: rgba(43, 41, 45, 0.6);
+    }
   }
 }
 .navigation {
+  display: none;
+  @include for-large-up {
+    width: 273px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 335px;
+    margin-top: 7px;
+  }
   &__item {
     display: none;
+    @include for-large-up {
+      display: inline;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+
+      text-align: right;
+
+      color: #2b292d;
+      text-decoration: none;
+    }
   }
   &__item_selected {
+    display: none;
+    @include for-large-up {
+      display: inline-block;
+      font-weight: 700;
+    }
   }
   &__arrow {
+    display: none;
+    @include for-large-up {
+      display: block;
+      width: 8px;
+      height: 5px;
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+      margin-top: 19px;
+      margin-left: 11px;
+    }
   }
   &__button {
     display: none;
+    @include for-large-up {
+      display: block;
+      margin-left: auto;
+    }
   }
 }

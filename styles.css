@@ -57,6 +57,16 @@ html {
   align-items: center;
 }
 
+@media screen and (min-width: 1400px) {
+  .top-section {
+    width: 1400px;
+    background-color: #f3c6bd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .action-button {
   text-align: center;
   width: 290px;
@@ -106,6 +116,13 @@ html {
   height: 64px;
   display: flex;
 }
+@media screen and (min-width: 1400px) {
+  .header {
+    width: 1140px;
+    height: 62px;
+    margin-top: 39px;
+  }
+}
 
 .header-logo {
   display: flex;
@@ -113,6 +130,11 @@ html {
   align-items: center;
   width: 261;
   border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 1400px) {
+  .header-logo {
+    border: none;
+  }
 }
 .header-logo__img {
   display: block;
@@ -123,22 +145,97 @@ html {
   margin-left: 15px;
   margin: 8px 13px 8px 15px;
 }
+@media screen and (min-width: 1400px) {
+  .header-logo__img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header-logo__text {
+    width: 222px;
+    height: 51px;
+  }
+}
 .header-logo__name {
-  text-align: center;
   font-weight: 700;
   font-size: 20px;
+  color: #2b292d;
   line-height: 25px;
   margin-right: 73px;
 }
 .header-logo__descr {
   display: none;
 }
+@media screen and (min-width: 1400px) {
+  .header-logo__descr {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
 
+.navigation {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .navigation {
+    width: 273px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 335px;
+    margin-top: 7px;
+  }
+}
 .navigation__item {
   display: none;
 }
+@media screen and (min-width: 1400px) {
+  .navigation__item {
+    display: inline;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #2b292d;
+    text-decoration: none;
+  }
+}
+.navigation__item_selected {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .navigation__item_selected {
+    display: inline-block;
+    font-weight: 700;
+  }
+}
+.navigation__arrow {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .navigation__arrow {
+    display: block;
+    width: 8px;
+    height: 5px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    margin-top: 19px;
+    margin-left: 11px;
+  }
+}
 .navigation__button {
   display: none;
+}
+@media screen and (min-width: 1400px) {
+  .navigation__button {
+    display: block;
+    margin-left: auto;
+  }
 }
 
 .action-button {

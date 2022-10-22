@@ -13,6 +13,15 @@ html {
   flex-direction: column;
   align-items: center;
 }
+.top-section {
+  @include for-large-up {
+    width: 1400px;
+    background-color: #f3c6bd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @import 'header.scss';
 @import 'audience.scss';
 // .audience {

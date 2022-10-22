@@ -23,6 +23,29 @@
   </head>
   <body>
     <main class="page">
+      <!-- HEADER --------- -->
+      <header class="header">
+        <div class="header-logo">
+          <img
+            class="header-logo__img"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+            alt="header-logo"
+          />
+          <div class="header-logo__text">
+            <div class="header-logo__name">Foundation</div>
+            <div class="header-logo__descr">Startup landing template</div>
+          </div>
+        </div>
+        <nav class="navigation">
+          <a href="#" class="navigation__item navigation__item_selected"></a>
+          <a href="#" class="navigation__item"></a>
+          <a href="#" class="navigation__item"><i class="navigation__arrow"></i></a>
+        </nav>
+        <button class="navigation__button action-button action-button_blue"></button>
+      </header>
+      <!-- headline ----------- -->
+
+      <!-- AUDIENCE ---------- -->
       <section class="audience">
         <div class="audience__heading">
           <h6 class="audience__about">Engage Visitors</h6>
@@ -32,8 +55,12 @@
           </p>
         </div>
         <div class="audience__buttons-wrapper">
-          <button class="audience__button button button_blue">Get Started</button>
-          <button class="audience__button button button_white">Learn More</button>
+          <button class="audience__button audience-button_blue action-button action-button_blue">
+            Get Started
+          </button>
+          <button class="audience__button audience-button_white action-button action-button_white">
+            Learn More
+          </button>
         </div>
         <div class="cards">
           <div class="cards__item">
@@ -74,6 +101,12 @@
           </div>
         </div>
       </section>
+      <!-- order --------------  -->
+      <!-- FOOTER -------- -->
+      <footer class="footer">
+        <div class="footer-nav"></div>
+      </footer>
+      <!-- ----- -->
     </main>
   </body>
 </html>

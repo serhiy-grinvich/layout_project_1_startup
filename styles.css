@@ -1,4 +1,4 @@
-.button {
+.action-button {
   text-align: center;
   width: 290px;
   height: 48px;
@@ -9,42 +9,36 @@
   line-height: 13px;
 }
 @media screen and (min-width: 1400px) {
-  .button {
+  .action-button {
     font-size: 18px;
     line-height: 13px;
   }
 }
-.button_blue {
+.action-button_blue {
   background-color: #3040c4;
   color: #fff;
-  margin: 0 auto 12px auto;
 }
 @media screen and (min-width: 1400px) {
-  .button_blue {
+  .action-button_blue {
     width: 160px;
-    margin: 14px 5px 111px auto;
   }
 }
-.button_white {
+.action-button_white {
   background-color: #fff;
   color: #000;
-  margin: 0 auto 40px auto;
 }
 @media screen and (min-width: 1400px) {
-  .button_white {
+  .action-button_white {
     width: 158px;
-    margin: 14px auto 111px 5px;
   }
 }
-.button_txt-blue {
+.action-button_txt-blue {
   background-color: #fff;
   color: #3040c4;
-  margin: 0 auto 40px auto;
 }
 @media screen and (min-width: 1400px) {
-  .button_txt-blue {
+  .action-button_txt-blue {
     width: 158px;
-    margin: 14px auto 111px 5px;
   }
 }
 
@@ -61,6 +55,134 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.action-button {
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .action-button {
+    font-size: 18px;
+    line-height: 13px;
+  }
+}
+.action-button_blue {
+  background-color: #3040c4;
+  color: #fff;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_blue {
+    width: 160px;
+  }
+}
+.action-button_white {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_white {
+    width: 158px;
+  }
+}
+.action-button_txt-blue {
+  background-color: #fff;
+  color: #3040c4;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_txt-blue {
+    width: 158px;
+  }
+}
+
+.header {
+  width: 320px;
+  height: 64px;
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 261;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+.header-logo__img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  margin: 8px 13px 8px 15px;
+}
+.header-logo__name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-right: 73px;
+}
+.header-logo__descr {
+  display: none;
+}
+
+.navigation__item {
+  display: none;
+}
+.navigation__button {
+  display: none;
+}
+
+.action-button {
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .action-button {
+    font-size: 18px;
+    line-height: 13px;
+  }
+}
+.action-button_blue {
+  background-color: #3040c4;
+  color: #fff;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_blue {
+    width: 160px;
+  }
+}
+.action-button_white {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_white {
+    width: 158px;
+  }
+}
+.action-button_txt-blue {
+  background-color: #fff;
+  color: #3040c4;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_txt-blue {
+    width: 158px;
+  }
 }
 
 .audience {
@@ -143,41 +265,19 @@ html {
   }
 }
 
-.button {
-  text-align: center;
-  width: 290px;
-  height: 48px;
-  border: none;
-  border-radius: 2px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
-}
-@media screen and (min-width: 1400px) {
-  .button {
-    font-size: 18px;
-    line-height: 13px;
-  }
-}
-.button_blue {
-  background-color: #3040c4;
-  color: #fff;
+.audience-button_blue {
   margin: 0 auto 12px auto;
 }
 @media screen and (min-width: 1400px) {
-  .button_blue {
-    width: 160px;
+  .audience-button_blue {
     margin: 14px 5px 111px auto;
   }
 }
-.button_white {
-  background-color: #fff;
-  color: #000;
+.audience-button_white {
   margin: 0 auto 40px auto;
 }
 @media screen and (min-width: 1400px) {
-  .button_white {
-    width: 158px;
+  .audience-button_white {
     margin: 14px auto 111px 5px;
   }
 }

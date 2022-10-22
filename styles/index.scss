@@ -1,6 +1,6 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
-@import 'buttons.scss';
+@import 'common.scss';
 * {
   box-sizing: border-box;
 }
@@ -13,6 +13,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
+@import 'header.scss';
 @import 'audience.scss';
 // .audience {
 //   max-width: 320px;

@@ -1,0 +1,126 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    width: 1140px;
+    padding: 73px 0 72px;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  &__wrapper {
+    @include for-large-up {
+      width: 1400px;
+      background-color: #f4f5f7;
+    }
+  }
+  &__img {
+    max-width: 200px;
+    // margin: 0 auto;
+    @include for-large-up {
+      max-width: 269px;
+      margin-right: 122px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include for-large-up {
+      align-items: flex-start;
+    }
+  }
+  &__title {
+    text-align: left;
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: $text-color-primary;
+    margin-top: 40px;
+    @include for-large-up {
+      margin-top: 33px;
+    }
+  }
+  &__text {
+    text-align: left;
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: $text-color-primary;
+
+    margin-top: 18px;
+    @include for-large-up {
+      margin-top: 12px;
+      width: 555px;
+      height: 64px;
+    }
+  }
+  &__email-wrapper {
+    display: flex;
+    flex-direction: column;
+    @include for-large-up {
+      flex-direction: row;
+      margin-top: 26px;
+    }
+  }
+  &__email {
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    height: 48px;
+    width: 290px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 13px;
+    @include for-large-up {
+      margin: 0;
+      margin-right: 10px;
+      width: 385px;
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    &::placeholder {
+      color: $text-color-primary;
+    }
+  }
+  &__button {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    @include for-large-up {
+      margin: 0;
+    }
+  }
+
+  &__terms {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+    @include for-large-up {
+      margin-top: 10px;
+    }
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(49, 66, 198, 1);
+    @include for-large-up {
+    }
+  }
+}

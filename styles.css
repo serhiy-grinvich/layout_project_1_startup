@@ -669,6 +669,23 @@ html {
   .footer__descr {
     display: block;
     width: 360px;
+    height: 85px;
+    margin-top: 26px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-nav {
+    display: flex;
+    justify-content: flex-start;
+    height: 338px;
+    width: 1140px;
+    margin: 0 auto;
   }
 }
 
@@ -677,19 +694,48 @@ html {
   padding-bottom: 40px;
   border-bottom: 1px solid #e3e3e3;
 }
+@media screen and (min-width: 1400px) {
+  .about-company {
+    width: 360px;
+    border: none;
+    margin-top: 43px;
+    padding: 0;
+    margin-right: 126px;
+  }
+}
 
 .footer-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1400px) {
+  .footer-logo {
+    flex-direction: row;
+  }
+}
 .footer-logo__img {
   width: 60px;
   height: 60px;
-  margin-top: 40px;
+  margin-top: 43px;
+}
+@media screen and (min-width: 1400px) {
+  .footer-logo__img {
+    margin: 0;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
 }
 .footer-logo__text {
   margin-bottom: 31px;
+}
+@media screen and (min-width: 1400px) {
+  .footer-logo__text {
+    margin: 0;
+    width: 222px;
+    height: 51px;
+    margin-top: 5px;
+  }
 }
 .footer-logo__name {
   text-align: center;
@@ -699,6 +745,12 @@ html {
   color: #2b292d;
   margin-top: 20px;
 }
+@media screen and (min-width: 1400px) {
+  .footer-logo__name {
+    margin: 0;
+    text-align: left;
+  }
+}
 .footer-logo__descr {
   text-align: center;
   font-weight: 400;
@@ -706,11 +758,22 @@ html {
   line-height: 25px;
   color: rgba(43, 41, 45, 0.6);
 }
+@media screen and (min-width: 1400px) {
+  .footer-logo__descr {
+    margin: 0;
+    text-align: left;
+  }
+}
 
 .downloads {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .downloads {
+    justify-content: flex-start;
+  }
 }
 .downloads__item_apple {
   display: block;
@@ -727,6 +790,20 @@ html {
 .additional-nav {
   margin-left: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .additional-nav {
+    display: flex;
+    margin: 0;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .additional-nav__column {
+    width: 265px;
+    margin-right: 29px;
+  }
+}
+
 .nav-links__title {
   font-weight: 700;
   font-size: 22px;
@@ -734,6 +811,12 @@ html {
   color: #2b292d;
   margin-top: 30px;
   margin-bottom: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .nav-links__title {
+    margin: 0;
+    margin-bottom: 18px;
+  }
 }
 .nav-links__list {
   list-style-type: none;
@@ -747,9 +830,29 @@ html {
   color: rgba(43, 41, 45, 0.6);
 }
 
+.footer__line {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .footer__line {
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgba(43, 41, 45, 0.1);
+  }
+}
+
 .terms {
   margin-left: 15px;
   margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .terms {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 50px;
+  }
 }
 .terms__links {
   width: 180px;
@@ -771,6 +874,12 @@ html {
   margin-top: 31px;
   margin-bottom: 23px;
 }
+@media screen and (min-width: 1400px) {
+  .social-links {
+    margin: 0;
+    margin-left: auto;
+  }
+}
 .social-links__item_twitter {
   margin: 0;
   display: inline-block;
@@ -790,7 +899,7 @@ html {
   display: inline-block;
   width: 18px;
   height: 17px;
-  margin-right: 20px;
+  margin-right: 2px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
 }
 

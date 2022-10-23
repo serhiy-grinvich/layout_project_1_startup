@@ -4,33 +4,74 @@
 
 .footer {
   width: 100%;
+  @include for-large-up {
+  }
+
   &__descr {
     display: none;
     @include for-large-up {
       display: block;
       width: 360px;
+      height: 85px;
+      margin-top: 26px;
+      margin-bottom: 25px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+
+      color: rgba(43, 41, 45, 0.6);
     }
   }
 }
 .footer-nav {
+  @include for-large-up {
+    display: flex;
+    justify-content: flex-start;
+    // align-items: center;
+    height: 338px;
+    width: 1140px;
+    margin: 0 auto;
+  }
 }
 .about-company {
   width: 100%;
   padding-bottom: 40px;
   border-bottom: 1px solid #e3e3e3;
+  @include for-large-up {
+    width: 360px;
+
+    border: none;
+    margin-top: 43px;
+    padding: 0;
+    margin-right: 126px;
+  }
 }
 .footer-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include for-large-up {
+    flex-direction: row;
+  }
 
   &__img {
     width: 60px;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 43px;
+    @include for-large-up {
+      margin: 0;
+      flex-shrink: 0;
+      margin-right: 15px;
+    }
   }
   &__text {
     margin-bottom: 31px;
+    @include for-large-up {
+      margin: 0;
+      width: 222px;
+      height: 51px;
+      margin-top: 5px;
+    }
   }
   &__name {
     text-align: center;
@@ -39,6 +80,10 @@
     line-height: 25px;
     color: $text-color-primary;
     margin-top: 20px;
+    @include for-large-up {
+      margin: 0;
+      text-align: left;
+    }
   }
   &__descr {
     text-align: center;
@@ -46,6 +91,10 @@
     font-size: 18px;
     line-height: 25px;
     color: rgba(43, 41, 45, 0.6);
+    @include for-large-up {
+      margin: 0;
+      text-align: left;
+    }
   }
 }
 
@@ -53,6 +102,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include for-large-up {
+    justify-content: flex-start;
+  }
   &__item_apple {
     display: block;
     width: 135px;
@@ -67,7 +119,18 @@
 }
 .additional-nav {
   margin-left: 15px;
+  @include for-large-up {
+    display: flex;
+
+    margin: 0;
+    margin-top: 60px;
+  }
   &__column {
+    @include for-large-up {
+      width: 265px;
+
+      margin-right: 29px;
+    }
   }
 }
 .nav-links {
@@ -78,6 +141,10 @@
     color: #2b292d;
     margin-top: 30px;
     margin-bottom: 18px;
+    @include for-large-up {
+      margin: 0;
+      margin-bottom: 18px;
+    }
   }
   &__list {
     list-style-type: none;
@@ -91,9 +158,25 @@
     color: rgba(43, 41, 45, 0.6);
   }
 }
+.footer__line {
+  display: none;
+  @include for-large-up {
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgba(43, 41, 45, 0.1);
+  }
+}
 .terms {
   margin-left: 15px;
   margin-top: 30px;
+  @include for-large-up {
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+    width: 1140px;
+    height: 50px;
+  }
   &__links {
     width: 180px;
     height: 22px;
@@ -114,6 +197,10 @@
   align-items: center;
   margin-top: 31px;
   margin-bottom: 23px;
+  @include for-large-up {
+    margin: 0;
+    margin-left: auto;
+  }
   &__item_twitter {
     margin: 0;
     display: inline-block;
@@ -133,7 +220,7 @@
     display: inline-block;
     width: 18px;
     height: 17px;
-    margin-right: 20px;
+    margin-right: 2px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
   }
 }

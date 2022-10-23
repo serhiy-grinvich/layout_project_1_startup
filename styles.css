@@ -194,8 +194,8 @@ html {
     height: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 335px;
-    margin-top: 7px;
   }
 }
 .navigation__item {
@@ -230,7 +230,6 @@ html {
     width: 8px;
     height: 5px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-    margin-top: 19px;
     margin-left: 11px;
   }
 }
@@ -614,6 +613,185 @@ html {
     width: 796px;
     height: 448px;
   }
+}
+
+.action-button {
+  text-align: center;
+  width: 290px;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .action-button {
+    font-size: 18px;
+    line-height: 13px;
+  }
+}
+.action-button_blue {
+  background-color: #3040c4;
+  color: #fff;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_blue {
+    width: 160px;
+  }
+}
+.action-button_white {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_white {
+    width: 158px;
+  }
+}
+.action-button_txt-blue {
+  background-color: #fff;
+  color: #3040c4;
+}
+@media screen and (min-width: 1400px) {
+  .action-button_txt-blue {
+    width: 158px;
+  }
+}
+
+.footer {
+  width: 100%;
+}
+.footer__descr {
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .footer__descr {
+    display: block;
+    width: 360px;
+  }
+}
+
+.about-company {
+  width: 100%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo__img {
+  width: 60px;
+  height: 60px;
+  margin-top: 40px;
+}
+.footer-logo__text {
+  margin-bottom: 31px;
+}
+.footer-logo__name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2b292d;
+  margin-top: 20px;
+}
+.footer-logo__descr {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.downloads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downloads__item_apple {
+  display: block;
+  width: 135px;
+  height: 40px;
+  margin-right: 10px;
+}
+.downloads__item_google {
+  display: block;
+  width: 116px;
+  height: 40px;
+}
+
+.additional-nav {
+  margin-left: 15px;
+}
+.nav-links__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.nav-links__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-links__list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.terms {
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.terms__links {
+  width: 180px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.terms__links-item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 31px;
+  margin-bottom: 23px;
+}
+.social-links__item_twitter {
+  margin: 0;
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-right: 20px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
+}
+.social-links__item_facebook {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  margin-right: 20px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png);
+}
+.social-links__item_linkedin {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  margin-right: 20px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
 }
 
 /*# sourceMappingURL=styles.css.map */

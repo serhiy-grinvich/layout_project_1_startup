@@ -3,13 +3,15 @@
 @import 'common.scss';
 
 .header {
-  width: 320px;
+  width: 100%;
   height: 64px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   @include for-large-up {
     width: 1140px;
     height: 62px;
-    margin-top: 39px;
+    margin: 39px auto 0 auto;
   }
 }
 .header-logo {
@@ -17,7 +19,7 @@
   justify-content: center;
   align-items: center;
   width: 261;
-  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  //   border-right: 1px solid rgba(0, 0, 0, 0.15);
   @include for-large-up {
     border: none;
   }
@@ -40,6 +42,7 @@
     @include for-large-up {
       width: 222px;
       height: 51px;
+      margin-right: auto;
     }
   }
   &__name {
@@ -65,6 +68,7 @@
 }
 .navigation {
   display: none;
+  //   width: 58px;
   @include for-large-up {
     width: 273px;
     height: 25px;
@@ -110,6 +114,28 @@
     @include for-large-up {
       display: block;
       margin-left: auto;
+    }
+  }
+}
+.header {
+  &__menu-button {
+    display: inline-block;
+    width: 58px;
+    height: 64px;
+    margin-left: auto;
+    // margin-right: auto;
+    border: none;
+    background-color: transparent;
+    padding: 26px 20px 25px 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  &__menu-icon {
+    display: block;
+    width: 18px;
+    height: 13px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+    @include for-large-up {
+      display: none;
     }
   }
 }

@@ -9,11 +9,13 @@ html {
   height: 100vh;
 }
 .page {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .top-section {
+  width: 100%;
   @include for-large-up {
     width: 1400px;
     background-color: #f3c6bd;

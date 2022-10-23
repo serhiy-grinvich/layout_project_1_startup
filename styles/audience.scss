@@ -3,7 +3,8 @@
 @import 'common.scss';
 
 .audience {
-  max-width: 320px;
+  width: 100%;
+  // max-width: 320px;
   background-color: $color-light-blue-fill;
   padding-bottom: 35px;
   @include for-large-up {

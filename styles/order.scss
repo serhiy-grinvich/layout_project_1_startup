@@ -3,6 +3,7 @@
 @import 'common.scss';
 
 .order {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +17,8 @@
     margin: 0 auto;
   }
   &__wrapper {
+    width: 100%;
+    background-color: #f4f5f7;
     @include for-large-up {
       width: 1400px;
       background-color: #f4f5f7;

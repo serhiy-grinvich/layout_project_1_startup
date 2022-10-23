@@ -660,6 +660,7 @@ html {
 }
 
 .order {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -673,6 +674,10 @@ html {
     flex-direction: row;
     margin: 0 auto;
   }
+}
+.order__wrapper {
+  width: 100%;
+  background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order__wrapper {

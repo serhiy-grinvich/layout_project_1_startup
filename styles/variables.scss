@@ -1,9 +1,15 @@
 $text-color-primary: #2b292d;
+$text-color-primary_opacity: rgba(43, 41, 45, 0.6);
 $text-color-black: #000;
 $text-color-white: #fff;
 $color-white: #fff;
+$color-order-fill: #f4f5f7;
 $color-light-blue-fill: rgba(0, 161, 198, 0.07);
+$color-headline-fill: #f3c6bd;
 $color-blue: #3040c4;
-$card-color-blue: #3141c5;
+$card-color-blue: rgb(49, 65, 197);
 $button-radius: 2px;
 $card-radius: 8px;
+$button-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+  inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+$hover-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);

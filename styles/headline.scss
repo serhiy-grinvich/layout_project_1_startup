@@ -7,8 +7,9 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #f3c6bd;
+  background-color: $color-headline-fill;
   padding-bottom: 36px;
+
   @include for-large-up {
     position: relative;
     align-items: flex-start;
@@ -17,6 +18,7 @@
   }
   &__content {
     margin: 35px 15px 30px 15px;
+
     @include for-large-up {
       margin: 76px 0 58px 0;
       z-index: 2;
@@ -29,6 +31,7 @@
     letter-spacing: -0.3125px;
     color: $text-color-primary;
     margin: 0 auto 24px auto;
+
     @include for-large-up {
       margin: 0;
       margin-bottom: 34px;
@@ -41,11 +44,12 @@
       letter-spacing: -0.5px;
     }
   }
-  &__descr {
+  &__description {
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     color: $text-color-primary;
+
     @include for-large-up {
       width: 456px;
       height: 102px;
@@ -57,6 +61,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+
     @include for-large-up {
       margin: 0;
       flex-direction: row;
@@ -65,6 +70,7 @@
   }
   &__btn_blue {
     margin-bottom: 15px;
+
     @include for-large-up {
       margin: 0;
       margin-right: 10px;
@@ -72,12 +78,14 @@
   }
   &__btn_white {
     margin-bottom: 33px;
+
     @include for-large-up {
       margin: 0;
     }
   }
   &__banner {
     max-width: 100%;
+
     @include for-large-up {
       position: absolute;
       right: -105px;

@@ -4,11 +4,13 @@
 
 .footer {
   width: 100%;
+
   @include for-large-up {
   }
 
   &__descr {
     display: none;
+
     @include for-large-up {
       display: block;
       width: 360px;
@@ -19,7 +21,7 @@
       font-size: 18px;
       line-height: 26px;
 
-      color: rgba(43, 41, 45, 0.6);
+      color: $text-color-primary_opacity;
     }
   }
 }
@@ -27,7 +29,6 @@
   @include for-large-up {
     display: flex;
     justify-content: flex-start;
-    // align-items: center;
     height: 338px;
     width: 1140px;
     margin: 0 auto;
@@ -37,9 +38,9 @@
   width: 100%;
   padding-bottom: 40px;
   border-bottom: 1px solid #e3e3e3;
+
   @include for-large-up {
     width: 360px;
-
     border: none;
     margin-top: 43px;
     padding: 0;
@@ -50,6 +51,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   @include for-large-up {
     flex-direction: row;
   }
@@ -58,6 +60,7 @@
     width: 60px;
     height: 60px;
     margin-top: 43px;
+
     @include for-large-up {
       margin: 0;
       flex-shrink: 0;
@@ -66,6 +69,7 @@
   }
   &__text {
     margin-bottom: 31px;
+
     @include for-large-up {
       margin: 0;
       width: 222px;
@@ -80,6 +84,7 @@
     line-height: 25px;
     color: $text-color-primary;
     margin-top: 20px;
+
     @include for-large-up {
       margin: 0;
       text-align: left;
@@ -90,7 +95,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-primary_opacity;
+
     @include for-large-up {
       margin: 0;
       text-align: left;
@@ -102,6 +108,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   @include for-large-up {
     justify-content: flex-start;
   }
@@ -119,16 +126,15 @@
 }
 .additional-nav {
   margin-left: 15px;
+
   @include for-large-up {
     display: flex;
-
     margin: 0;
     margin-top: 60px;
   }
   &__column {
     @include for-large-up {
       width: 265px;
-
       margin-right: 29px;
     }
   }
@@ -138,9 +144,10 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $text-color-primary;
     margin-top: 30px;
     margin-bottom: 18px;
+
     @include for-large-up {
       margin: 0;
       margin-bottom: 18px;
@@ -148,14 +155,14 @@
   }
   &__list {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
   &__list-item {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-primary_opacity;
   }
 }
 .footer__line {
@@ -189,7 +196,7 @@
     font-size: 14px;
     line-height: 22px;
 
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-primary_opacity;
   }
 }
 .social-links {

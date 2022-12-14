@@ -1,7 +1,7 @@
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -52,15 +52,15 @@
 }
 
 html {
-  font-family: "Work Sans", sans-serif;
   height: 100vh;
+  font-family: "Work Sans", sans-serif;
 }
 
 .page {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .top-section {
@@ -68,18 +68,18 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .top-section {
-    width: 1400px;
-    background-color: #f3c6bd;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1400px;
+    background-color: #f3c6bd;
   }
 }
 
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -136,11 +136,11 @@ html {
   display: inline-block;
   width: 58px;
   height: 64px;
-  padding: 26px 20px 25px 20px;
   margin-left: auto;
+  padding: 26px 20px 25px 20px;
   border: none;
-  background-color: transparent;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
   .header__menu-button {
@@ -204,11 +204,11 @@ html {
   line-height: 25px;
   color: #2b292d;
 }
-.header-logo__descr {
+.header-logo__description {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .header-logo__descr {
+  .header-logo__description {
     display: block;
     font-weight: 400;
     font-size: 18px;
@@ -222,11 +222,11 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .navigation {
-    width: 273px;
-    height: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 273px;
+    height: 25px;
     margin-left: 335px;
   }
 }
@@ -261,8 +261,8 @@ html {
     display: block;
     width: 8px;
     height: 5px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     margin: 30px 0 auto 11px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   }
 }
 .navigation__button {
@@ -276,9 +276,9 @@ html {
 }
 
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -438,13 +438,13 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   width: 290px;
   height: 300px;
+  margin: 0 15px 15px 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
-  margin: 0 15px 15px 15px;
 }
 @media screen and (min-width: 1400px) {
   .cards__item {
@@ -472,18 +472,18 @@ html {
 }
 .cards__capture {
   display: block;
+  margin-bottom: 33px;
   text-align: center;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin-bottom: 33px;
   color: #2b292d;
 }
 
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -534,8 +534,8 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #f3c6bd;
   padding-bottom: 36px;
+  background-color: #f3c6bd;
 }
 @media screen and (min-width: 1400px) {
   .headline {
@@ -555,19 +555,19 @@ html {
   }
 }
 .headline__title {
+  margin: 0 auto 24px auto;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
   color: #2b292d;
-  margin: 0 auto 24px auto;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
-    margin: 0;
-    margin-bottom: 34px;
     width: 754px;
     height: 165px;
+    margin: 0;
+    margin-bottom: 34px;
     font-weight: 700;
     font-size: 80px;
     line-height: 78px;
@@ -595,9 +595,9 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .headline__btn-wrapper {
-    margin: 0;
     flex-direction: row;
     justify-content: flex-start;
+    margin: 0;
   }
 }
 .headline__btn_blue {
@@ -631,9 +631,9 @@ html {
 }
 
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -691,8 +691,8 @@ html {
   .order {
     flex-direction: row;
     width: 1140px;
-    padding: 73px 0 72px;
     margin: 0 auto;
+    padding: 73px 0 72px;
   }
 }
 .order__wrapper {
@@ -725,15 +725,15 @@ html {
   }
 }
 .order__title {
-  text-align: left;
   margin: 0;
+  margin-top: 40px;
+  text-align: left;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
   color: #2b292d;
-  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
@@ -741,19 +741,19 @@ html {
   }
 }
 .order__text {
-  text-align: left;
   margin: 0;
+  margin-top: 18px;
+  text-align: left;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
   color: #2b292d;
-  margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
-    margin-top: 12px;
     width: 555px;
     height: 64px;
+    margin-top: 12px;
   }
 }
 .order__email-wrapper {
@@ -767,12 +767,12 @@ html {
   }
 }
 .order__email {
+  width: 290px;
+  height: 48px;
   margin-top: 40px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  height: 48px;
-  width: 290px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
@@ -780,11 +780,11 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .order__email {
+    width: 385px;
     margin: 0;
     margin-right: 10px;
-    width: 385px;
-    text-align: left;
     padding-left: 15px;
+    text-align: left;
   }
 }
 .order__email::placeholder {
@@ -817,10 +817,11 @@ html {
   line-height: 22px;
   color: rgb(49, 66, 198);
 }
+
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -869,11 +870,11 @@ html {
 .footer {
   width: 100%;
 }
-.footer__descr {
+.footer__description {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .footer__descr {
+  .footer__description {
     display: block;
     width: 360px;
     height: 85px;
@@ -890,8 +891,8 @@ html {
   .footer-nav {
     display: flex;
     justify-content: flex-start;
-    height: 338px;
     width: 1140px;
+    height: 338px;
     margin: 0 auto;
   }
 }
@@ -904,10 +905,10 @@ html {
 @media screen and (min-width: 1400px) {
   .about-company {
     width: 360px;
-    border: none;
     margin-top: 43px;
-    padding: 0;
     margin-right: 126px;
+    padding: 0;
+    border: none;
   }
 }
 
@@ -929,8 +930,8 @@ html {
 @media screen and (min-width: 1400px) {
   .footer-logo__img {
     margin: 0;
-    flex-shrink: 0;
     margin-right: 15px;
+    flex-shrink: 0;
   }
 }
 .footer-logo__text {
@@ -938,19 +939,19 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .footer-logo__text {
-    margin: 0;
     width: 222px;
     height: 51px;
+    margin: 0;
     margin-top: 5px;
   }
 }
 .footer-logo__name {
+  margin-top: 20px;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   color: #2b292d;
-  margin-top: 20px;
 }
 @media screen and (min-width: 1400px) {
   .footer-logo__name {
@@ -958,7 +959,7 @@ html {
     text-align: left;
   }
 }
-.footer-logo__descr {
+.footer-logo__description {
   text-align: center;
   font-weight: 400;
   font-size: 18px;
@@ -966,7 +967,7 @@ html {
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
-  .footer-logo__descr {
+  .footer-logo__description {
     margin: 0;
     text-align: left;
   }
@@ -1012,12 +1013,12 @@ html {
 }
 
 .nav-links__title {
+  margin-top: 30px;
+  margin-bottom: 18px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   color: #2b292d;
-  margin-top: 30px;
-  margin-bottom: 18px;
 }
 @media screen and (min-width: 1400px) {
   .nav-links__title {
@@ -1049,16 +1050,16 @@ html {
 }
 
 .terms {
-  margin-left: 15px;
   margin-top: 30px;
+  margin-left: 15px;
 }
 @media screen and (min-width: 1400px) {
   .terms {
-    margin: 0 auto;
     display: flex;
     align-items: center;
     width: 1140px;
     height: 50px;
+    margin: 0 auto;
   }
 }
 .terms__links {
@@ -1088,10 +1089,10 @@ html {
   }
 }
 .social-links__item_twitter {
-  margin: 0;
   display: inline-block;
   width: 21px;
   height: 16px;
+  margin: 0;
   margin-right: 20px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
 }

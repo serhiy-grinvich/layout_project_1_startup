@@ -5,23 +5,24 @@
   box-sizing: border-box;
 }
 html {
-  font-family: 'Work Sans', sans-serif;
   height: 100vh;
+  font-family: 'Work Sans', sans-serif;
 }
 .page {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .top-section {
   width: 100%;
+
   @include for-large-up {
-    width: 1400px;
-    background-color: #f3c6bd;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1400px;
+    background-color: $color-headline-fill;
   }
 }
 @import 'header.scss';

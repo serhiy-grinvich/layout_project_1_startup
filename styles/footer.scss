@@ -7,8 +7,7 @@
 
   @include for-large-up {
   }
-
-  &__descr {
+  &__description {
     display: none;
 
     @include for-large-up {
@@ -20,7 +19,6 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 26px;
-
       color: $text-color-primary_opacity;
     }
   }
@@ -29,8 +27,8 @@
   @include for-large-up {
     display: flex;
     justify-content: flex-start;
-    height: 338px;
     width: 1140px;
+    height: 338px;
     margin: 0 auto;
   }
 }
@@ -41,10 +39,10 @@
 
   @include for-large-up {
     width: 360px;
-    border: none;
     margin-top: 43px;
-    padding: 0;
     margin-right: 126px;
+    padding: 0;
+    border: none;
   }
 }
 .footer-logo {
@@ -55,7 +53,6 @@
   @include for-large-up {
     flex-direction: row;
   }
-
   &__img {
     width: 60px;
     height: 60px;
@@ -63,34 +60,34 @@
 
     @include for-large-up {
       margin: 0;
-      flex-shrink: 0;
       margin-right: 15px;
+      flex-shrink: 0;
     }
   }
   &__text {
     margin-bottom: 31px;
 
     @include for-large-up {
-      margin: 0;
       width: 222px;
       height: 51px;
+      margin: 0;
       margin-top: 5px;
     }
   }
   &__name {
+    margin-top: 20px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     color: $text-color-primary;
-    margin-top: 20px;
 
     @include for-large-up {
       margin: 0;
       text-align: left;
     }
   }
-  &__descr {
+  &__description {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -141,12 +138,12 @@
 }
 .nav-links {
   &__title {
+    margin-top: 30px;
+    margin-bottom: 18px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     color: $text-color-primary;
-    margin-top: 30px;
-    margin-bottom: 18px;
 
     @include for-large-up {
       margin: 0;
@@ -167,6 +164,7 @@
 }
 .footer__line {
   display: none;
+
   @include for-large-up {
     display: block;
     width: 100%;
@@ -174,15 +172,15 @@
   }
 }
 .terms {
-  margin-left: 15px;
   margin-top: 30px;
-  @include for-large-up {
-    margin: 0 auto;
-    display: flex;
+  margin-left: 15px;
 
+  @include for-large-up {
+    display: flex;
     align-items: center;
     width: 1140px;
     height: 50px;
+    margin: 0 auto;
   }
   &__links {
     width: 180px;
@@ -195,7 +193,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-
     color: $text-color-primary_opacity;
   }
 }
@@ -204,15 +201,16 @@
   align-items: center;
   margin-top: 31px;
   margin-bottom: 23px;
+
   @include for-large-up {
     margin: 0;
     margin-left: auto;
   }
   &__item_twitter {
-    margin: 0;
     display: inline-block;
     width: 21px;
     height: 16px;
+    margin: 0;
     margin-right: 20px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
   }

@@ -2,9 +2,9 @@
 @import 'variables.scss';
 
 .action-button {
-  text-align: center;
   width: 290px;
   height: 48px;
+  text-align: center;
   border: none;
   border-radius: $button-radius;
   font-weight: 700;
@@ -20,7 +20,6 @@
     cursor: pointer;
     box-shadow: $hover-shadow;
   }
-
   &_blue {
     background-color: $color-blue;
     color: $text-color-white;
